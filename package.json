@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "homepage": "https://[lucasito0208].github.io/[eldenringdemo]/",
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.0.0",
