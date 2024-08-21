@@ -1,5 +1,19 @@
 # EldenRing
 
+##Tecnologías Utilizadas
+### Angular: Framework para construir la interfaz de usuario.
+Angular Material: Biblioteca de componentes para Angular.
+RxJS: Biblioteca para programación reactiva con observables.
+TypeScript: Lenguaje para el desarrollo de la aplicación.
+
+
+
+<img width="1501" alt="Captura de pantalla 2024-08-18 a las 21 25 28" src="https://github.com/user-attachments/assets/649e4951-4ef0-4a6f-83b2-cdebea70dcd0">
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
 
 ## Development server
