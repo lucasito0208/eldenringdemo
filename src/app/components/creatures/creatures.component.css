@@ -1,0 +1,6 @@
+.creatures-image {
+    width: 200px; /* Fija el ancho deseado */
+    height: 200px; /* Fija la altura deseada */
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+    border-radius: 10px; /* Opcional: redondear los bordes */
+  }

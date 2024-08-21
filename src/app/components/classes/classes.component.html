@@ -1,0 +1,24 @@
+<h2>Las 14 clases del EldenRing</h2>
+<br />
+<br />
+<div fxLayout="row wrap" fxLayoutGap="10px">
+  <div
+    fxLayout="column"
+    *ngFor="let class of classes; let i = index"
+    style="padding-bottom: 10px !important"
+  >
+    <mat-card  class="global-card">
+      <mat-card-header>
+        <mat-card-title class="global-title">{{ class.name }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <img
+          mat-card-image
+          src="{{ classesImageUrl + class.id + '.png' }}"
+          alt="{{ class.name }}"
+          class="classes-image"
+        />
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

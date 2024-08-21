@@ -1,0 +1,6 @@
+.classes-image {
+    width: 400px; /* Fija el ancho deseado */
+    height: 600px; /* Fija la altura deseada */
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+    border-radius: 10px; /* Opcional: redondear los bordes */
+  }

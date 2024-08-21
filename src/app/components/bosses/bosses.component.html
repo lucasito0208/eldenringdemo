@@ -1,0 +1,24 @@
+<h2>Los 100 bosses del EldenRing</h2>
+<br />
+<br />
+<div fxLayout="row wrap" fxLayoutGap="10px">
+  <div
+    fxLayout="column"
+    *ngFor="let boss of bosses; let i = index"
+    style="padding-bottom: 10px !important"
+  >
+    <mat-card  class="global-card">
+      <mat-card-header>
+        <mat-card-title class="global-title">{{ boss.name }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <img
+          mat-card-image
+          src="{{ bossesImageUrl + boss.id + '.png' }}"
+          alt="{{ boss.name }}"
+          class="boss-image"
+        />
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

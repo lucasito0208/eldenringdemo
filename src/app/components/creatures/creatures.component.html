@@ -1,0 +1,24 @@
+<h2>Las 100 criaturas del EldenRing</h2>
+<br />
+<br />
+<div fxLayout="row wrap" fxLayoutGap="10px">
+  <div
+    fxLayout="column"
+    *ngFor="let creature of creatures; let i = index"
+    style="padding-bottom: 10px !important"
+  >
+    <mat-card  class="global-card">
+      <mat-card-header>
+        <mat-card-title class="global-title">{{ creature.name }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <img
+          mat-card-image
+          src="{{ creatureImageUrl + creature.id + '.png' }}"
+          alt="{{ creature.name }}"
+          class="creatures-image"
+        />
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
